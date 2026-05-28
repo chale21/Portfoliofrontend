@@ -19,29 +19,26 @@ export default function Certifications() {
         console.warn('Could not fetch certifications, using static fallback:', err.message);
         // Clean high fidelity fallback credentials list
         setCerts([
-          {
+           {
             _id: "c1",
-            title: "AWS Certified Cloud Practitioner",
-            issuer: "Amazon Web Services (AWS)",
+            title: "Web programining training",
+            issuer: "Ethio coder",
             date: "Dec 2025",
-            verifyLink: "https://aws.amazon.com/verification",
-            image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=400&q=80"
+            image: "/Ethiocoderpro.png"
           },
           {
             _id: "c2",
-            title: "MongoDB Associate Developer",
-            issuer: "MongoDB University",
+            title: "Web develpment and colaborative training",
+            issuer: "Bahir dar University",
             date: "Aug 2025",
-            verifyLink: "https://university.mongodb.com",
-            image: "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?auto=format&fit=crop&w=400&q=80"
+            image: "/CDC.jpg"
           },
           {
             _id: "c3",
             title: "Responsive Web Design Certification",
-            issuer: "freeCodeCamp",
+            issuer: "programining Training",
             date: "May 2025",
-            verifyLink: "https://www.freecodecamp.org/certification/chalachewakilew/responsive-web-design",
-            image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=400&q=80"
+            image: "/Ethioden.jpg"
           }
         ]);
       } finally {

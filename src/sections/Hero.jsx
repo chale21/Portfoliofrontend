@@ -107,7 +107,7 @@ export default function Hero() {
           </span>
           <div className="flex justify-center items-center gap-6">
             <a
-              href="https://github.com/chalachewakilew"
+              href="https://github.com/chale21"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full glass border border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-300 hover:text-cyan-500 dark:hover:text-cyan-400 hover:scale-110 hover:-translate-y-1 transition-all duration-300 shadow-md cursor-pointer"
@@ -127,7 +127,7 @@ export default function Hero() {
             </a>
             
             <a
-              href="https://t.me/chalachewakilew"
+              href="https://t.me/C21212112"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full glass border border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-300 hover:text-cyan-500 dark:hover:text-cyan-400 hover:scale-110 hover:-translate-y-1 transition-all duration-300 shadow-md cursor-pointer"
