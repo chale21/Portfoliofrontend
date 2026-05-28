@@ -55,7 +55,7 @@ export default function Projects() {
             tags: ["React", "Node.js", "MongoDB"],
             githubLink:
               "https://github.com/chale21/TransportFrontend.git",
-            liveLink: "",
+            liveLink: "https://transportmanagmentsystem.vercel.app/",
             featured: true,
             order: 2
           },
@@ -66,7 +66,7 @@ export default function Projects() {
               "Connects users with local service providers.",
             longDescription:
               "Platform for booking local services.",
-            image: "/service.png",
+            image: "/Localservice.png",
             tags: ["React", "Express", "MongoDB"],
             githubLink:
               "https://github.com/chale21/LocalServicSystem.git",
