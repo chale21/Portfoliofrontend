@@ -150,11 +150,10 @@ export default function Projects() {
               <button
                 key={tag}
                 onClick={() => setSelectedTag(tag)}
-                className={`px-3 py-1 rounded-full text-sm ${
-                  selectedTag === tag
+                className={`px-3 py-1 rounded-full text-sm ${selectedTag === tag
                     ? 'bg-cyan-500 text-black'
                     : 'bg-gray-800 text-white'
-                }`}
+                  }`}
               >
                 {tag}
               </button>
@@ -209,23 +208,35 @@ export default function Projects() {
                   </div>
 
                   {/* Links */}
-                  <div className="flex justify-between pt-3">
+                  <div className="flex justify-between items-center pt-3">
+
                     <a
                       href={project.githubLink}
                       className="text-cyan-400 text-sm"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       GitHub
                     </a>
 
+                    {project.liveLink && (
+                      <a
+                        href={project.liveLink}
+                        className="text-green-400 text-sm"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Live Demo
+                      </a>
+                    )}
+
                     <button
-                      onClick={() =>
-                        handleOpenDetails(project)
-                      }
+                      onClick={() => handleOpenDetails(project)}
                       className="text-white text-sm"
                     >
                       Details
                     </button>
+
                   </div>
                 </div>
               </div>
