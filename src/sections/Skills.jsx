@@ -20,16 +20,16 @@ export default function Skills() {
         // High fidelity fallback list
         setSkills([
           { _id: "s1", name: "React.js", level: 70, category: "Frontend", icon: "Code" },
-          { _id: "s2", name: "JavaScript (ES6+)", level: 98, category: "Frontend", icon: "Braces" },
-          { _id: "s3", name: "Tailwind CSS", level: 90, category: "Frontend", icon: "Palette" },
+          { _id: "s2", name: "JavaScript (ES6+)", level: 78, category: "Frontend", icon: "Braces" },
+          { _id: "s3", name: "Tailwind CSS", level: 70, category: "Frontend", icon: "Palette" },
           { _id: "s4", name: "HTML5 & CSS3", level: 95, category: "Frontend", icon: "Layers" },
-          { _id: "s5", name: "Node.js / Express", level: 92, category: "Backend", icon: "Server" },
-          { _id: "s6", name: "MongoDB / Mongoose", level: 88, category: "Backend", icon: "Database" },
-          { _id: "s7", name: "RESTful APIs", level: 95, category: "Backend", icon: "Cpu" },
-          { _id: "s8", name: "Git & GitHub", level: 90, category: "DevOps/Tools", icon: "GitBranch" },
-          { _id: "s9", name: "Docker", level: 80, category: "DevOps/Tools", icon: "Container" },
+          { _id: "s5", name: "Node.js / Express", level: 72, category: "Backend", icon: "Server" },
+          { _id: "s6", name: "MongoDB / Mongoose", level: 68, category: "Backend", icon: "Database" },
+          { _id: "s7", name: "RESTful APIs", level: 85, category: "Backend", icon: "Cpu" },
+          { _id: "s8", name: "Git & GitHub", level: 80, category: "DevOps/Tools", icon: "GitBranch" },
+          { _id: "s9", name: "Docker", level: 70, category: "DevOps/Tools", icon: "Container" },
           { _id: "s10", name: "Data Structures & Algorithms", level: 90, category: "Core", icon: "Compass" },
-          { _id: "s11", name: "Software Engineering Principles", level: 94, category: "Core", icon: "GraduationCap" }
+          { _id: "s11", name: "Software Engineering Principles", level: 74, category: "Core", icon: "GraduationCap" }
         ]);
       } finally {
         setLoading(false);
